@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           <div className=" md:pt-32 text-base md:text-lg ">{children}</div>{" "}
         </AuthProvider>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

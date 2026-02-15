@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { rethink_sans800 } from "@/Fonts/Rethink";
+import Footer from "@/components/Utility/footer1";
 import Link from "next/link";
 import GDGLogo from "@/logo1.png";
 import PersonImage from "@/Person.png";
@@ -66,7 +67,7 @@ const HomePage = () => {
         </div>
 
         {/* --- MAIN CONTENT AREA --- */}
-        <div className="w-full px-4 md:px-8 relative z-30 pt-40 pb-20 flex flex-col items-center">
+        <div className="w-full px-4 md:px-8 relative z-30 pt-40 pb-0.5 flex flex-col items-center">
 
           {/* OUR EVENTS CARD */}
           <div className="w-full max-w-[1400px] mb-20">
@@ -136,7 +137,9 @@ const HomePage = () => {
 
             </div>
           </div>
-
+          <div className="w-full mt-20">
+             <Footer />
+          </div>
         </div>
       </div>
     </div>
